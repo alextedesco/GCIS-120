@@ -1,0 +1,29 @@
+Shortest Path from A to G with Lowest Total Cost
+Vertex          A       B       C       D       E       F       G
+                0, None ∞, None ∞, None ∞, None ∞, None ∞, None ∞, None
+A               ✓       11, A          5, A                 ✓
+D               |                7, D    ✓                  ✓   25, D
+C               |        10, C   ✓       |              
+B               |        ✓       |       |      11, B    
+E               |        |       |       |      ✓      17, E     
+F               |        |       |       |      |       ✓       19, F      
+G               ↓        ↓       ↓       ↓      ↓       ↓       ✓
+ADCBEFG, 19     0, None 10, C    7, D   5, A   11, B    17, E   19, F
+
+
+
+
+
+
+
+Shortest Path G to A with Lowest Total Cost
+Vertex          A       B       C       D       E       F       G
+                ∞, None ∞, None ∞, None ∞, None ∞, None ∞, None 0, None
+G                                                       2, G    ✓
+F                                               8, F    ✓      |
+E                       9, E    15, E           ✓      |       |
+B                       ✓                      |       |       |
+C                       |       ✓      17, C   |       |       |
+D               22, D   |       |       ✓      |       |       |       
+                ✓       ↓       ↓       ↓      ↓      ↓        ↓
+GCFECDA, 22     22, D   9, E    15, E   17, C   8, F    2, G    0, None

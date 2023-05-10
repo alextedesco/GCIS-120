@@ -1,0 +1,50 @@
+Practicum Instructions
+
+You have 30 minutes to complete this mini-practicum. Each question is equally
+weighted. Raise your hand if you need help.
+
+You WILL NOT need to write JUnit tests for this practicum. The JUnit library
+has been provided to you for use in the remainder of this unit.
+
+You should remember the range type in Python:
+
+for i in range(100):
+  print(i)
+
+Java does not include a data structure like Python's range, but it would be 
+nice if we could write loops like this:
+
+for(int i : new IntRange(0, 100)) {
+   System.out.println(i);
+}
+
+For this mini-practicum, you will create a new Range abstract data type that 
+works with a Java for each loop, just like the example above. If you have time,
+you may get BONUS points for implementing a String range as well.
+
+1. Use the provided UML as a guide to implement the generic Range interface. 
+   Note that the Iterator and Iterable classes (shown in red) are part of the
+   standard Java libraries - you do not need to write these!
+
+2. Again using the provided UML as a guide, implement the RangeIterator such 
+   that it is capable of iterating over any Range. 
+
+3. Again using the provided UML as a guide, implement the IntRange class. Note
+   that it is constructed with start and stop values - the range should include
+   values in the range start to stop-1. For example, new IntRange(50, 100) 
+   would include the values from 50 to 99. 
+
+   Use the provided JUnit test to verify that your range is working properly.
+   It is recommended that you uncomment the tests one at a time until you get
+   each to pass before moving on to the next one.
+   
+   Hint: DO NOT try to store all of the values in the range, e.g. in an array 
+   or list. That is not necessary. It is very easy to determine which value is
+   at a specific index using only the start and stop.
+
+3. BONUS (up to 25%): Again using the provided UML as a guide, implement the
+   WordRange class. It should split a given string into individual words, and
+   iterate over the words in order. Use the provided JUnit test to verify that 
+   your range is working properly. It is recommended that you uncomment the 
+   tests one at a time until you get each to pass before moving on to the next 
+   one.

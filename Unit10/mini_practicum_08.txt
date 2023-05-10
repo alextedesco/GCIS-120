@@ -1,0 +1,20 @@
+Practicum Instructions
+
+You have 30 minutes to complete this mini-practicum. Each question is equally
+weighted. Raise your hand if you need help.
+
+You WILL NOT need to write JUnit tests for this practicum. The JUnit library
+has been provided to you for use in the remainder of this unit.
+
+Use the provided UML to implement a class hierarchy that includes interfaces
+and abstract classes. Define a main method in each of your classes that tests 
+the class. All distances are in miles. Your solution must meet the following 
+requirements:
+
+1. A person burns 100 calories per mile moved. There are 3500 calories in one
+   pound, and so their weight should be reduced accordingly.
+
+2. Cars that are manual get 35 mpg. Cars that are not get 30 mpg.
+
+3. Motorcycles without sidecars get 60 mpg. If a sidecar is attached, they get 
+   45 mpg.

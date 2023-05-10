@@ -1,0 +1,8 @@
+                Sorted  Unique      Adding or Removing at Start     Adding or Removing in End       Adding or Removing in Middle        Contains        Random Access (Index or Key)
+
+HashSet         No      Yes         NA                              O(1)                            O(1)                                O(1)            NA
+TreeSet         Yes     Yes         NA                              O(Log2N)                        O(Log2N)                            O(Log2N)        Na
+HashMap         No      Yes (Keys)  NA                              O(1)                            O(1)                                O(1)            O(1)
+TreeMap         Yes     Yes (Keys)  NA                              O(Log2N)                        O(Log2N)                            O(Log2N)        O(Log2n)
+ArrayList       No      No          O(N)                            O(1)                            O(N)                                O(N)            O(1)
+LinkedList      No      No          O(1)                            O(1)                            O(N)                                O(N)            O(N)

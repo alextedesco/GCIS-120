@@ -1,0 +1,64 @@
+Practicum Instructions
+
+You have 110 minutes to complete this practicum. Each question is equally 
+weighted. Raise your hand if you need help.
+
+1. A soda has a size (in ounces), flavor, and price. The prize of the soda is
+   always $0.11 per ounce, e.g. a 16oz soda costs $1.76. Create a new Java 
+   class to represent a soda. Your class must meet the following requirements:
+   - A soda is constructed with its size and flavor.
+   - Accessors for size, flavor, and price.
+   - A string representation in the format "A <size>oz. <flavor> soda for 
+     $<price>!" for example "A 16oz cherry-cola soda for $1.76!"
+   - Two sodas are considered equal if they are the same size and flavor.
+
+2. Write a JUnit unit test to test your Soda class. You should include at least
+   TWO tests that each create a soda of a different size and flavor and verify
+   that all of the other methods return the correct values.
+
+2. Take a moment to examine the files that have been provided to you in the 
+   data directory. Each file represents a shipment of sodas. The first line in
+   the file indicates how many sodas are in the shipment. The remaining lines
+   in the file each represent a single soda in the format "<size> <flavor>", 
+   for example "16 orange" is a 16oz. orange soda.
+
+   Create a new Java class named "SodaFactory" and define a static method named
+   "loadShipment" that declares a parameter for a filename. Read the shipment
+   of sodas from the file and return it as an array of sodas. Throw any 
+   exceptions if they occur. Hint: you can use the Integer.parseInt("123") 
+   function to turn a string into an integer.
+
+3. In the SodaFactory class, define a static method named "countFlavor" that 
+   declares parameters for a shipment of soda (an array) and the name of a 
+   flavor. Use a "classic for loop" to count the number of sodas in the 
+   shipment with the specified flavor and return it.
+
+4. In the SodaFactory class, define a static method named "totalPrice" that
+   declares parameters for a shipment of soda (an array) and returns the total
+   price of all of the sodas in the shipment.
+
+5. In the SodaFactory class, define a main method with the appropriate 
+   signature and prompt the user to enter a filename and a flavor. 
+   - Load the shipment from the specified file. If an exception occurs, handle
+     it by printing an error message. Your program should not crash!
+   - Print the count of sodas with the specified flavor.
+   - Print the total price of the shipment.
+
+Example 1:
+filename: data/shipment_45.txt
+flavor: cola
+Could not load shipment!
+
+Example 2:
+filename: data/shipment_00.txt
+flavor: cola
+Shipment of 0 sodas loaded!
+count of cola: 0
+total price: 0.0
+
+Example 3:
+filename: data/shipment_99.txt
+flavor: orange
+Shipment of 99 sodas loaded!
+count of orange: 14
+total price: 180.83999999999972

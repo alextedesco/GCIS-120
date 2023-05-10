@@ -1,0 +1,45 @@
+Practicum Instructions
+
+You have 30 minutes to complete this mini-practicum. Each question is equally
+weighted. Raise your hand if you need help.
+
+You WILL NOT need to write JUnit tests for this practicum. The JUnit library
+has been provided to you for use in the remainder of this unit.
+
+Background: 
+
+A priority queue is a special kind of queue that does not dequeue values in 
+FIFO order, but instead dequeues them in priority order. For example, if you 
+were to enqueue the following values into a priority queue:
+
+   5, 3, 1, 2, 4
+
+The values would dequeue in the following order:
+
+   1, 2, 3, 4, 5
+
+Activities:
+
+0. Your project should be pre-configured to allow you to run JUnit tests 
+   without needing to add the JUnit reference library. Verify that you can run
+   the provided unit tests ("HeapPQTest" and "ListPQTest"). You should notice
+   that most of the test methods in the files have been commented out. It is 
+   strongly recommended that you uncomment the tests one at a time as you are
+   working on the practicum. Only when you get one test to pass should you move
+   on to the next test.
+
+1. Create a new Java class named "HeapPQ" that implements the provided Queue 
+   interface. Use the provided Heap and ArrayHeap classes to implement a 
+   priority queue. 
+
+   Use the provided HeapPQTest to test your implementation.
+
+2. Create a new Java class named ListPQ that implements the provided Queue 
+   interface. Use an ArrayList to store the integer values as they are 
+   enqueued. When a value is dequeued, you will need to search the array for 
+   the highest priority value and remove it. Hint: the 
+   ArrayList.remove(int index) method will remove the value at the specified 
+   index.
+
+   Use the provided ListPQTest to test your implementation.
+

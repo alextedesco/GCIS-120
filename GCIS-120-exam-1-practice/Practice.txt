@@ -1,0 +1,16 @@
+1)  Create a Student class. A Student has a name, username, and id number. 
+    A student's constructor should take a name and username.
+
+2)  Add a static field to the Student class to keep track of id numbers, id numbers should begin at 100000. 
+    Each time a new student is created set the new student's id number and increment the static variable.
+
+3)  Implement an equals and toString method for a student. 
+    Two students are equal if they have the same username. 
+    A student string should follow the formatting "<name> (<username>)".
+
+4)  Write a main method that opens the students.txt file and creates a Student for each line in the file and adds them to an array. 
+    The first line of the file says how many students are in the file, the following lines consist each consist of one Student in the form "<username>:<name>". 
+    Be sure to catch any io exceptions that might be thrown and print a meaningful message.
+
+5)  Create a recursive static method that takes an array of students and an index and prints all the students from the given index to the end of the array.
+    Update your main to use this new method to print the array of students you created in step 4.

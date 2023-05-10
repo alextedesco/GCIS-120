@@ -1,0 +1,29 @@
+Cheapest flights: 
+  [ROC, JFK], weight=290.0
+  [ROC, BOS, IAD], weight=441.0
+  [ROC, ATL, LAS, SEA], weight=595.0
+  [ROC, ATL, LAS, SFO], weight=550.0
+  [ROC, ATL, LAS, LAX], weight=558.0
+  [ROC, ORD, DFW, PHX], weight=534.0
+  [ROC, BOS], weight=177.0
+  [ROC, ATL, MCO], weight=430.0
+  [ROC, ORD, DFW], weight=411.0
+  [ROC, ATL, LAS], weight=450.0
+  [ROC, ORD], weight=275.0
+  [ROC, ATL], weight=316.0
+  [ROC, JFK, PIT], weight=573.0
+  
+Fewest layovers:
+  [ROC, JFK]
+  [ROC, BOS, IAD]
+  [ROC, BOS, SEA]
+  [ROC, ORD, SFO]
+  [ROC, BOS, SEA, LAX]
+  [ROC, ORD, DFW, PHX]
+  [ROC, BOS]
+  [ROC, ATL, MCO]
+  [ROC, ORD, DFW]
+  [ROC, ORD, LAS]
+  [ROC, ORD]
+  [ROC, ATL]
+  [ROC, ORD, PIT]

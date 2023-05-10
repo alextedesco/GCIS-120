@@ -1,0 +1,26 @@
+Before You Get Started
+
+1. Add the provided junit-platform-console-standalone-1.8.2.jar file to your
+   referenced libraries in the project.
+
+2. Verify that you can run the provided JUnit unit test (JUnitTest) and that
+   the test passes. If not, ask for help!
+
+Practicum Instructions
+
+You have 30 minutes to complete this mini-practicum. Each question is equally
+weighted. Raise your hand if you need help.
+
+1. Create a new Java class named ArrayUtils and define a method named 
+   "arrayCopy" that declares a parameter for an int array. Use a while loop to
+   make a copy of the array and return it. The original array must not be 
+   modified in any way. Your method should work for arrays of any size 
+   (including 0).
+
+2. Define a new method in the ArrayUtils class named "arrayReverse" that 
+   defines a parameter for an int array. Use a for loop to make a copy of the
+   array with the elements in reverse order. In other words, given the array
+   {1, 2, 3, 4} your function would return {4, 3, 2, 1}. The original array 
+   should not be modified in any way.
+
+2. Write a JUnit unit test to thoroughly test both of your array functions.

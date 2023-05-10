@@ -1,0 +1,53 @@
+Practicum Instructions
+
+You have 30 minutes to complete this mini-practicum. Each question is equally
+weighted. Raise your hand if you need help.
+
+You WILL NOT need to write JUnit tests for this practicum. The JUnit library
+has been provided to you for use in the remainder of this unit.
+
+1. Create a new Java class named "Files" and define a static function named
+   "countWords" that declares parameters for a filename and a number of 
+   letters. Your function should open the file return the count of the words in
+   the file with the specified number of letters. Do not worry about digits, 
+   punctuation, or special characters; in other words, you may consider 
+   "11-point" to be a word with 8 letters. You may assume that there is
+   only one word per line in the file. You should rethrow any exceptions that
+   occur.
+   
+2. Define a main method with the appropriate signature and test your function 
+   using the "words.txt" file that has been provided to you in the data 
+   directory. Print out the count of words containing 1-20 letters (see the 
+   output below). You should handle any exceptions that are thrown by printing 
+   an error message and exiting gracefully, i.e. your program should not crash.
+   When testing your program, refer to the examples below to verify that your
+   function is working correctly:
+
+   Letters    Word Count  
+   1          27
+   2          637
+   3          4711
+   4          11171
+   5          22950
+   6          39518
+   7          52093
+   8          61019
+   9          61754
+   10         54321
+   11         46411
+   12         37525
+   13         27924
+   14         19258
+   15         12148
+   16         7115
+   17         3982
+   18         2003
+   19         1053
+   20         506
+
+3. 25% BONUS: Define a function named "findWords" that declares parameters for 
+   a filename and a number of letters. Return a String array containing all of 
+   the words in the file with the specified number of letters. You may rethrow
+   any exceptions that occur. Your method should work for any number of 
+   letters, but test it from main by finding and printing all of the words that
+   have 27 letters (there are 3 of them).  

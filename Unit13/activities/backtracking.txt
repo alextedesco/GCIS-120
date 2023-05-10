@@ -1,0 +1,12 @@
+B   - small box (1)
+
+OO  - medium box (4)
+
+RRR - large box (2)
+RRR
+
+Fit all of the boxes into the space below (replace the Xs).
+
+OOOORRR
+RRRBRRR
+RRROOOO

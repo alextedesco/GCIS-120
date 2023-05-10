@@ -1,0 +1,12 @@
+Identify BSTs
+
+Left - No because 63 is not to the right of the 60 subtree
+Right - Yes
+
+
+
+Identify min Heaps
+
+Heap A - No because it is a min value and not a root
+Heap A - Yes
+Heap A - No because it is not filled from left to right

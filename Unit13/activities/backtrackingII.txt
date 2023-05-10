@@ -1,0 +1,16 @@
+Solve the box packing problem using these questions:
+
+1.) List the fields that would be included in the state of your Configuration?
+- List of packed boxes with pack location (top-left corner).
+- List of unpacked boxes
+
+2.) How would you create successor configurations?
+Create one configuration for each unpacked box, packing it into the next available
+spot to the left. If there is no spot to the left, try placing it above
+
+3.) What would be a good pruning strategy?
+- If the configuration has a total height > 3, it is invalid.
+- If the configuration has a total width > 7, it is invalid.
+
+4.) How would you know that a Configuration is the goal?
+- The unpacked list is empty.

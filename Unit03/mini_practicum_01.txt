@@ -1,0 +1,31 @@
+Before You Get Started
+
+1. Add the provided junit-platform-console-standalone-1.8.2.jar file to your
+   referenced libraries in the project.
+
+2. Verify that you can run the provided JUnit unit test (JUnitTest) and that
+   the test passes. If not, ask for help!
+
+Practicum Instructions
+
+You have 30 minutes to complete this mini-practicum. Each question is equally
+weighted. Raise your hand if you need help.
+
+1. Create a Java class to represent a food item. It must meet the following 
+   requirements. Be sure to use proper encapsulation!
+
+   a. Food items have a name, grams of fat, and grams of carbohydrates. All 
+      three values are provided when a food item is created.
+   b. Write accessors for all three values.
+   c. Write a method that returns the calories in a food item using the
+      forumla: calories = grams of fat * 9 + grams of carbs * 4. For example,
+      a food with 10 grams of fat and 20 grams of carbs would be 170 calories
+      (9 * 10 + 20 * 4).
+   d. Two foods are considered equal if they have the same amount of fat and
+      carbs.
+   e. The string representation of a food is in the format:
+      "<name> {#g fat, #g carbs, # calories}"
+      For example: "Twinkie {8g fat, 43g carbs, 244 calories}"
+
+2. Write a JUnit unit test to thoroughly test your food item class.
+

@@ -1,0 +1,1 @@
+--module-path "C:\Users\alexa\Documents\Code\javafx-sdk-18\lib" --add-modules javafx.controls,javafx.fxml,javafx.media

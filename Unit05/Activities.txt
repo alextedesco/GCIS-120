@@ -1,0 +1,3 @@
+FIFO    Stores key/values pairs`  LIFO    Stores unique elements  Variable Length  
+
+Queue   Dictionary                Stack   Set                     List

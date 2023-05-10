@@ -1,0 +1,29 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\alexa\\junit-platform-console-standalone-1.8.2 (1).jar",
+        "c:\\Users\\alexa\\Documents\\Code\\javafx-sdk-18\\lib\\javafx.base.jar",
+        "c:\\Users\\alexa\\Documents\\Code\\javafx-sdk-18\\lib\\javafx.controls.jar",
+        "c:\\Users\\alexa\\Documents\\Code\\javafx-sdk-18\\lib\\javafx.fxml.jar",
+        "c:\\Users\\alexa\\Documents\\Code\\javafx-sdk-18\\lib\\javafx.graphics.jar",
+        "c:\\Users\\alexa\\Documents\\Code\\javafx-sdk-18\\lib\\javafx.media.jar",
+        "c:\\Users\\alexa\\Documents\\Code\\javafx-sdk-18\\lib\\javafx.swing.jar",
+        "c:\\Users\\alexa\\Documents\\Code\\javafx-sdk-18\\lib\\javafx.web.jar",
+        "c:\\Users\\alexa\\Documents\\Code\\javafx-sdk-18\\lib\\javafx-swt.jar"
+    ],
+    "java.project.sourcePaths": [
+        "practicum-2-AlexTedesco",
+        "practicum-1-AlexTedesco",
+        "Unit12/queens/view",
+        "Unit12",
+        "Unit11",
+        "Unit03",
+        "Unit02",
+        "Unit01",
+        "Unit00",
+        "JavaFXConfiguration",
+        "GCIS-120-exam-2-practice",
+        "GCIS-120-exam-1-practice",
+        "finalpracticum-AlexTedesco"
+    ]
+}

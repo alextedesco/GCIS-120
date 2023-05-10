@@ -1,0 +1,8 @@
+# bipartite
+# 2 connected components
+A D E F
+B D E F
+C D E F
+G J K L
+H J K L
+I J K L

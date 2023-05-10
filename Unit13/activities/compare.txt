@@ -1,0 +1,19 @@
+Which interface must be implemented in order to define the natural ordering of the
+instances of a class?
+    Comparable
+
+Let A and B be two instances of a class that implements the interface above. Write the
+method call used to make a comparison between A and B.
+    A.compareTo (B)
+
+What value might be returned if A comes before B in the natural order?
+Which interface must be implemented to define an alternate ordering for some class
+(e.g. if there is no natural order or the natural order doesn’t work)?
+    Comparator
+
+Let class C be a class that implements the above interface. Show the method call used
+to make a comparison between A and B.
+    C.compare (A, B)
+
+What value might be returned if A comes after B?
+    int > 0

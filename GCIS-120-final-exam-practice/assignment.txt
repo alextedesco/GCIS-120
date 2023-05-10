@@ -1,0 +1,27 @@
+Six Degrees of Kevin Bacon or Bacon's Law is a parlor game where players 
+challenge each other to arbitrarily choose an actor and then connect them 
+to another actor via a film that both actors have appeared in together, 
+repeating this process to try to find the shortest path that ultimately 
+leads to prolific American actor Kevin Bacon.
+
+In this assignment you will use the provided classes, and a few classes you create 
+in order to simulate a very small version of the game.
+
+1. Create a class called Actor. An actor has a private name and getter method for it.
+   Create an equals, a hashcode, and toString method for this class.
+
+2. Create a class called Movie. A movie has a private name and a collection of actors. 
+   Choose a representation for this data that is efficient and easy to work with.
+   A movie should have a method that can add an actor to the collection and another 
+   that checks to see if an actor is in the collection.
+
+   Movie should be iterable so that a for each loop can be used to iterate through
+   the movie's actors.
+
+3. Open BaconGame.java. Using the code provided to you, complete the main method. 
+   The graph should have actors, every actor should be connect to every 
+   other actor they appear in the same movie.
+
+4. Using the provided methods in AdjListGraph.java, create a method that determines if 
+   there is a path between two actors. Demonstrate this method by calling it from the main.
+

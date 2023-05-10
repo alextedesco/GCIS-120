@@ -1,0 +1,8 @@
+Using the provided UML and description below create Attendant.java, Person.java, Adult.java, and Child.java.
+AmusementPark.java and AmusementParkTest.java have been provided to you. Each of the provided files have lines of 
+code that will need to be commented out as you complete your solution. If you have any questions please ask. 
+
+An attendant must have a ticketPrice() and canRide() method. A person, which is an attendant, has a name and a height (in inches). 
+Both adults and children are people. A child can have a chaperone, which is an adult, but does not need to have one. 
+The ticket price for a child is 10.99 and an adult's is 15.99. An adult can ride a ride if they are taller than 48 inches.
+A child can ride the ride if they are taller than 48 inches OR if they are taller than 36 inches and have a chaperone who can ride the ride.

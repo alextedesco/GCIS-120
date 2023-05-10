@@ -1,0 +1,5 @@
+State of the configuration - The amount of queens placed and the amount of queens placed.The queens that have been placed.
+How to determine its a valid configuration - canAttack return true
+Goal -Valid and N queens are placed
+What do the sucessors represent of each configuration - The set of next possible moves
+

@@ -1,0 +1,10 @@
+{
+    "java.project.referencedLibraries": [
+        "C:\\Users\\phinn\\junit-platform-console-standalone-1.7.0-all.jar",
+        "junit-platform-console-standalone-1.8.2.jar"
+    ],
+    "cSpell.ignoreWords": [
+        "Fleeb",
+        "fleebs"
+    ]
+}

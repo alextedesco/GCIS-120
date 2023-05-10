@@ -1,0 +1,19 @@
+Binary Search Practice
+
+2 9 10 12 21 36 37 38 39 41 56 57 77 79 83 93 98
+
+Target = 79
+Iteration - 0  1  2  3  4 5 6
+Start -     0  9  13 13 X X X
+End -       16 16 16 13 X X X
+Mid -       8  12 14 13 X X X
+Value -     39 77 83 79 X X X
+
+
+Target = 11
+Iteration - 0  1  2  3  4 5 6
+Start -     0  0   0 2  3 X X
+End -       16 7   2 2  2 X X
+Mid -       8  3  1  2  X X X
+Value -     39 12 9  10 X X X
+

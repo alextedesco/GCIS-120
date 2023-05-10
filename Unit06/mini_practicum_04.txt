@@ -1,0 +1,30 @@
+Practicum Instructions
+
+You have 30 minutes to complete this mini-practicum. Each question is equally
+weighted. Raise your hand if you need help.
+
+You WILL NOT need to write JUnit tests for this practicum. The JUnit library
+has been provided to you for use in the remainder of this unit.
+
+1. Consider that a divisor of an integer n is any value 1 <= i <= n such that n
+   is evenly divisible by i. For example, the divisors of 64 are 1, 2, 4, 8, 
+   16, 32, and 64.
+
+   You have been provided with a partially completed Java program in a class
+   named "Divisors" and a JUnit unit test named "DivisorsTest". Use RECURSION
+   to complete the private divisors function so that it returns all of the 
+   divisors for an integer value n as a string. For example, if n=64, your 
+   recursive function should return the string "1 2 4 8 16 32 64".
+
+   Use the tests in the provided JUnit unit test to verify that your function 
+   is working correctly. It is recommended that you uncomment the tests one at
+   a time, from top to bottom. Once you get each test passing, move on to the
+   next test. It is NOT recommended that you try to get all of the tests to 
+   pass at once. You may add additional tests if you would like to do so.
+
+   You may also use the main method in the Divosors class to test your code by
+   hand, though you will still need to get the provided tests to pass for full
+   credit.
+
+   If you hard code your solution, you will not receive credit. If you do not 
+   use recursion in your solution, you will not receive credit. 

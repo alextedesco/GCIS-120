@@ -1,0 +1,61 @@
+You have 1 hour and 50 minutes to complete this practicum. The JUnit library 
+has been provided to you. You are not REQUIRED to write JUnit tests but may 
+earn up to 30% bonus credit if you do.
+
+The problems (other than #0) are equally weighted.
+
+0. It is recommended that you do the following before you begin:
+   * Verify that you can run the HelloWorldTest that has been provided to you. 
+     You will need to add the provided JUnit library to your project's 
+     referenced libraries.
+   * Examine the classes that have been provided to you. If you are not sure 
+     how they work, raise your hand and ask!
+
+1. Implement the class hierarchy represented in the UML in problem01.png. Here
+   are some additional guidelines.
+
+   * The string representation of an AbstractProcessor should be in the format
+     "<Manufacturer> <name> (<speed>GHz.)" for example "INTEL Pentium (3.0GHz)".
+   * Pentium processors are always named "Pentium" and all Pentium processors 
+     are manufactured by INTEL.
+   * Ryzen processors are always named "Ryzen" and all Ryzen processors are 
+     manufactured by AMD.
+
+2. Implement the class hierarchy represented in the UML in problem02.png. You 
+   will build on some of the classes from the previous step. Here are some 
+   additional requirements:
+
+   * The RAM enumeration and HardwareException classes have been provided to 
+     you.
+   * The chipset manufacturer specified when the computer is created must be
+     either INTEL or AMD. Any other manufacturer should throw a 
+     HardwareException.
+   * Motherboards are created without a processor or RAM installed.
+   * The isCompatible() method returns true if the processor has the same 
+     manufacturer as the motherboard's socket and false otherwise. For example,
+     a motherboard with an INTEL socket is compatible with a processor 
+     manufactured by INTEL.
+   * The install method installs a processor. A HardwareException is thrown if
+     the processor is not compatible or a processor is already installed.
+   * The uninstall method removes and returns the processor from the 
+     motherboard. If no processor is installed, throw a HardwareException.
+   * For now, just stub out the RAM-related methods.
+
+3. Motherboards can hold up to 4 sticks of RAM or any size. You will need to 
+   decide which of Java's built-in data structures to use to store the RAM. To
+   get full credit, you must choose and use the data structure that meets the 
+   requirements below the most efficiently.
+   * The addRAM() method adds a stick of RAM to the computer. If there are 
+     already 4 sticks installed, throw a HardwareException.
+   * Each time the removeRAM() method is called, it should remove and return 
+     the most recently installed stick. To be clear: RAM is removed in the 
+     opposite order that it was added. If there is no RAM installed, throw A
+     HardwareException.
+   * The ramInstalled() method should return the total GB of all of the RAM
+     sticks that have been installed in the motherboard.
+   * The goodToGo() method returns true if a compatible processor and at least
+     one stick of RAM have been installed in the motherboard.
+
+4. BONUS (up to 30%): Write a JUnit test that thoroughly tests each of your
+   concrete classes. You may earn up to 10% per unit test based on the qualit 
+   of the test.

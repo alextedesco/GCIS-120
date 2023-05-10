@@ -1,0 +1,104 @@
+Before continuing, open the HelloWorldTest JUnit test and verify that you can 
+run it. You will need to add your JUnit library to referenced libraries.
+
+Note that a significant amount of code has been provided to you for this exam.
+Most of the provided code includes data structures and algorithms that were 
+implemented in class. You will need these data structures and algorithms to
+complete this exam.
+
+========== Part 1 (25 Points) =================================================
+
+Examine the EyeColor, Month, and Fleeb classes that have been provided to you 
+in the fleebs package. Notice that Fleebs do not have a natural order. Modify 
+the Fleeb class to define a natural order that arranges a group of Fleebs in 
+order based on the intensity of their eye colors (from MOST intense to LEAST 
+intense).
+
+Use the provided FleebTest JUnit test to test your solution by uncommenting the
+appropriate test and running it. You will need to add some imports to the test.
+
+
+
+========== Part 2 (25 Points) =================================================
+
+Sometimes it is preferable to arrange Fleebs in order by their birth month. If
+two fleebs have the same birth month, then they are sorted by day. 
+
+For example, a Fleeb born in Fleebtober (the 6th month of the year) would be 
+sorted after a Fleeb born in Smarch (the first month of the year). Twe Fleebs
+that were both born in Septembruary would be arranged in order of the day on
+which they were born.
+
+Implement a helper class that can be used to arrange Fleebs in this way. You 
+will need to make further modifications to the Fleeb class to implement the 
+helper class.
+
+Use the provided FleebTest JUnit test to test your solution by uncommenting the
+appropriate test and running it. You will need to add some imports to the test.
+In order for the provided test to pass, your helper class MUST be named 
+"BirthdaySorter".
+
+
+
+========== Part 3 (25 Points) =================================================
+
+Take a moment to inspect the code that has been provided to you in the 
+"airports" package:
+
+- Airport is an enumeration with the airport codes for 14 airports across the
+  U.S.
+- Flight is a class that represents a flight, including the origin airport,
+  destination airport, and cost of the flight. There is a static method that
+  reads flight information from a text file and returns all of the flights 
+  as a collection. The main method includes an example of how to use the method.
+
+Create a new Java class named "Routes" and define a static method that declares 
+a parameter for a Collection of Flights and returns a WGraph of Airports. Two 
+airports are neighbors if there is a flight between them, and the weight of 
+the edge is the cost of that flight.
+
+Use the provided RoutesTest to verify that your solution is working as 
+expected. This test is NOT exhaustive, but it will check at least a few 
+connections in your graph of routes to make sure that they are correct.
+
+BONUS (up to 10 points): Define a main method with the appropriate signature 
+that displays the cheapest flight from ROC to every other airport in the graph
+of routes AND display the flight from ROC to every other airport with the
+fewest layovers. Your output should match the example_output.txt that has been
+provided to you in the data directory.
+
+
+
+========== Part 4 (25 Points) =================================================
+
+The classic game of hangman challenges one or more players to guess a secret 
+phrase without guessing wrong more than 5 times. Examine the Hangman class that
+has been provided to you in the hangman package. You can run the class to play 
+a game of hangman. You can see what the secret phrase is, but try experimenting
+with correct and incorrect guesses to see how the game behaves.
+
+Note: a guess is rejected (the move method returns false) if the letter has 
+been guessed before or if the game is over (won or lost). Rejected guesses do 
+not count against the player's remaining attempts.
+
+Your task is to finish implementing the HangmanSolver to solve a game of 
+hangman using backtracking. Here are some hints:
+  * remember, chars are unsigned integers and can be used in a for loop, e.g.:
+    for(char c='a'; c<='z'; c++) {...} will iterate over the lowercase 
+    alphabet.
+  * Don't forget to make a deep copy of the hangman game before making each 
+    move! Use the Hangman.deepCopy() method to do this.
+  * Each configuration may have up to 26 successors! One for each letter of 
+    the alphabet. You can reduce this by not trying to guess a letter that has
+    already been guessed, but you do not have to. 
+  * A successor is invalid if the move failed (returned false) or the game is
+    lost.
+  * A successor is valid if the last move succeeded (returned true) and the 
+    game is not lost. Remember: a wrong guess IS considered a successful move,
+    and so the player may lose afterwards.
+  * A successor is the goal if the game is won.
+
+Note that the main method in the HangmanSolver has been provided to you with 
+two example puzzles (one commented out). It is recommended that you get your
+solution working for the shorter puzzle with debugging enabled before testing 
+on the longer puzzles with debugging disabled.

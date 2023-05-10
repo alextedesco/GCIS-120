@@ -1,0 +1,10 @@
+int - primitive
+String - reference
+byte - primitive
+short - primitive
+Object - reference
+long[] - reference
+Integer - reference
+char - primitive
+boolean - primitive
+Thread - reference

@@ -1,0 +1,40 @@
+Practicum Instructions
+
+You have 30 minutes to complete this mini-practicum. Each question is equally
+weighted. Raise your hand if you need help.
+
+You WILL NOT need to write JUnit tests for this practicum. The JUnit library
+has been provided to you for use in the remainder of this unit.
+
+0. Before beginning, make sure that you can run the provided PracticumTest. You
+   should note that all but one of the tests in the file is commented out. It 
+   is strongly recommended that you uncomment the tests one at a time.
+
+1. Open the GraphMaker class and implement the makeGraph01 method so that it
+   builds the graph depicted in graph01.png. Use the provided makeGraph01 test 
+   in PracticumTest to make sure that your method is working properly.
+
+2. Open the GraphMaker class and implement the makeGraph02 method so that it
+   builds the graph depicted in graph02.png. Use the provided makeGraph02 test 
+   in PracticumTest to make sure that your method is working properly.
+
+3. A mother vertex is a vertex in a graph from which all other vertices can be
+   reached by at least one path. There may be more than one mother vertex in a 
+   graph! If you open the provided Graph interface, you will see a default 
+   method named "isMotherVertex" that throws an exception. If you run the tests
+   provided in the PracticumTest, they will both fail when the exception is
+   thrown.
+   
+   Implement the isMotherVertex in the provided AdjacencyGraph class so that it
+   returns true for any value that is a mother vertex in the graph, and false
+   otherwise. The mother vertices in Graph01 are A, B, and E. The mother vertex
+   in Graph02 is Z.
+
+   DO NOT CHANGE THE CODE INSIDE AdjacencyGraph OTHER THAN IMPLEMENTING THE 
+   NEW isMotherVertex METHOD.
+
+   Hint: you can use any of the other methods in the class, including the 
+   private methods used by the BFS and DFS search methods. 
+
+   Another Hint: if you run a complete DFS from a mother vertex, the set of 
+   visited vertices will contain every vertex in the graph.

@@ -1,0 +1,21 @@
+Left Graph
+
+Vertex      Adjacency List
+T           W
+U           W
+V           Y
+W           U, T
+X           Y, Z
+Y           V, X, Z
+Z           X
+
+Right Graph
+
+Vertex      Adjacency List
+A           B
+B           A, C
+C           E, F
+D           A, C, G
+E           C, F
+F           C, E
+G           D

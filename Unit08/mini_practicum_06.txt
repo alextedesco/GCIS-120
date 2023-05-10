@@ -1,0 +1,45 @@
+Practicum Instructions
+
+You have 30 minutes to complete this mini-practicum. Each question is equally
+weighted. Raise your hand if you need help.
+
+You WILL NOT need to write JUnit tests for this practicum. The JUnit library
+has been provided to you for use in the remainder of this unit.
+
+0. A JUnit test has been provided to you so that you can test your code as you
+   implement it. All but the first test has been commented out. It is STRONGLY
+   recommended that you uncomment the tests one at a time and write the code
+   necessary to get each to pass before moving on to the next test. Open the 
+   test now and verify that you can run it.
+   
+   DO NOT MODIFY THE TESTS.
+
+   To receive full credit for your solutions to these problems, you must make
+   effective use of built-in data structures to implement an efficient 
+   solution. If you solve the problem inefficiently, you will still receive 
+   some credit.
+
+1. Create a new Java class named "Practicum06" and define a static method named
+   "arrayToList" that declares a parameter for an int array. Copy the array 
+   into a new ArrayList and return it.
+
+2. Define a static method named "uniqueValues" that declares a parameter for an
+   ArrayList of integers and returns copy of the list containing all of the 
+   unique values from the original list. For example, given the list 
+   [1, 1, 2, 2, 3, 3, 4, 5] you would return a list containing only 
+   [1, 2, 3, 4]. The order of the values in the list does not matter.
+
+3. BONUS (10%) Define a static method named "characterCount" that declares a 
+   parameter for a string and returns a map containing the count of how many 
+   times each character appears in the string. For example, given the string 
+   "Hello, World!" the map returned would include the following values:
+   'H' : 1
+   'e' : 1
+   'l' : 3
+   'o' : 2
+   ',' : 1
+   ' ' : 1
+   'W' : 1
+   'r' : 1
+   'd' : 1
+   '!' : 1
